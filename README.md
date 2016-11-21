@@ -9,6 +9,8 @@ A repository filled with my simple and mostly useless programs that I've made si
 
 - Factorial Calculator: A script that has two different functions, both of which find the factorial of the number you input. The first uses iteration and the second uses recursion.
 
+- Fruit Shop: Takes 3 costs in a string as x y z and then 3 quantities as a b c and then the max cash and calculates the highest amount of objects that can be bought with those values.
+
 - List Checker: Takes a preset list and prints all the values in it that are smaller than 5 and then smaller than the input from the user.
 
 - Multiply List by 1.1: Multiplies a set list by 1.1 and outputs the resulting list. Two different functions, one uses for and the other uses list compression.
