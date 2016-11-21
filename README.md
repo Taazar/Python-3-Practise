@@ -24,3 +24,5 @@ A repository filled with my simple and mostly useless programs that I've made si
 - Tower of Hanoi Moves: A program that allows you to input the number of rings and then outputs the least moves needed to fully move all the rings to another stick.
 
 - Triangle Numbers: A short simple script that takes an input and finds all the triangle numbers up to and including your input and outputs them.
+
+- Years until age 100: Takes the name, age and amount of times you want the output printed and from there finds and prints the number of years until you're 100, what year that will be and is customized with your name the amount of times you inputted.
