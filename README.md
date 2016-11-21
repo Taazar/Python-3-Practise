@@ -17,6 +17,8 @@ A repository filled with my simple and mostly useless programs that I've made si
 
 - Palindrome Checker: A simple script to check if your input is a palindrome meaning the it looks the same as normal when reversed.
 
+- Sentence Info: Takes an input and tells the user the number of charcters with and without spaces, the first and second half of the input, whether it is all uppercase, lowercase or neither and what it looks like in both those cases.
+
 - Tower of Hanoi Moves: A program that allows you to input the number of rings and then outputs the least moves needed to fully move all the rings to another stick.
 
 - Triangle Numbers: A short simple script that takes an input and finds all the triangle numbers up to and including your input and outputs them.
