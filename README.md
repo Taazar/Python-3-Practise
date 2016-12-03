@@ -7,6 +7,8 @@ A repository filled with my simple and mostly useless programs that I've made si
 
 - Divisors of Input: Short script that will output all the possible divisors of your input that leave no remainders.
 
+- Even List: Generates a list of 20 random numbers from 1 to 100 and then prints a new list containing only the even numbers from the origional list.
+
 - Factorial Calculator: A script that has two different functions, both of which find the factorial of the number you input. The first uses iteration and the second uses recursion.
 
 - Fruit Shop: Takes 3 costs in a string as x y z and then 3 quantities as a b c and then the max cash and calculates the highest amount of objects that can be bought with those values.
