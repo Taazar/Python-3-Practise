@@ -1,43 +1,42 @@
 def factorial():
-    a,total=1,1
-    while a==1:
-        a=0
+    total=1
+    while True:
         user=input("Please enter your value: ")
         try:
             user=int(user)
             if user<0:
                 print("You cannot get a factorial of a negative number.")
-                a=1
+                continue
             elif user==0:
                 print("The factorial of '0' is '0'.")
-                a=1
+                continue
+            break
         except:
             print("You must enter a number.")
-            a=1
+            continue
     for a in range(user):
         total *= a+1
     print("The factorial of '{}' is '{}'.".format(user,total))
     factorial()
 
 def factorial2():
-    a,total=1,1
-    while a==1:
-        a=0
+    while True:
         user=input("Please enter your value: ")
         try:
             user=int(user)
             if user<0:
                 print("You cannot get a factorial of a negative number.")
-                a=1
+                continue
             elif user==0:
                 print("The factorial of '0' is '0'.")
-                a=1
+                continue
             elif user>993:
                 print("Stack overflow occured. The maximum factorial this program can calculate is 993.")
-                a=1
+                continue
+            break
         except:
             print("You must enter a number.")
-            a=1
+            continue
     print("The factorial of '{}' is '{}'.".format(user,factorial2_sub(user)))
     factorial2()
 
