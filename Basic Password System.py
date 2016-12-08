@@ -1,11 +1,10 @@
 def pass_check():
-    attempts = 3
-    password = "Password"
+    password, attempts = "Password", 3
     while attempts > 0:
         entry = input("Password: ")
         if entry == password:
             print("Password Confirmed. Welcome Back User!")
-            attempts = 0
+            break
         else:
             attempts = attempts - 1
             if attempts == 0:
@@ -13,5 +12,3 @@ def pass_check():
             else:
                 print("Password Denied. You Have {} Attempts Left!".format(attempts))
 pass_check()
-
-
