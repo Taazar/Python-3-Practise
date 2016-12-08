@@ -1,30 +1,28 @@
-print("This function will find the mean, median, mode and range of the values you enter.")
+print("This function will output the mean, median, mode and range of the values you enter.")
 def average():
-    b,d=1,[]
-    while b==1:
-        a,b=input("Please enter the number of values: "),0
+    while True:
+        a,d=input("Please enter the number of values: "),[]
         try:
             a=int(a)
             if a<1:
                 print("You need to have at least one value.")
-                b=1
+                continue
+            break
         except ValueError:
             print("You need to input a whole number.")
-            b=1
-    b=1
+            continue
     for c in range(a):
-        while b==1:
-            temp,b=input("Please enter figure number {}: ".format(c+1)),0
+        while True:
+            temp=input("Please enter figure number {}: ".format(c+1))
             try:
                 temp=int(temp)
+                break
             except ValueError:
                 print("You need to input a number.")
-                b=1
-        b=1
+                continue
         d.append(temp)
     d.sort()
-    temp = sum(float(c) for c in d)
-    print("Your mean is '{}'.".format(temp/len(d)))
+    print("Your mean is '{}'.".format((sum(float(c) for c in d))/len(d)))
     temp=len(d)/2
     if temp-int(temp)==0:
         temp=(d[int(temp)]+d[int(temp-1)])/2
@@ -41,8 +39,7 @@ def average():
         if len(temp)==a or len(temp)*d.count(temp[0])==a:
             print("There is no real mode, all your values appear an equal amount of times.")
         else:
-            temp = [str(c) for c in temp]
-            print("Your modes are '{}'.".format("', '".join(temp)))
+            print("Your modes are '{}'.".format("', '".join([str(c) for c in temp])))
     else:
         print("Your mode is '{}'.".format(temp[0]))
     print("Your range is '{}'.\n".format(d[a-1]-d[0]))
