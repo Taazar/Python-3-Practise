@@ -17,6 +17,8 @@ A repository filled with my simple and mostly useless programs that I've made si
 
 - List Overlap: Generates 2 random number lists, one longer than the other and then compares them to find what numbers appear in both lists. It puts these numbers in a new list and prints it.
 
+- Loops and Format Test: Simply prints a series of messages with percentages on the end that increase each time by a certain amount.
+
 - Multiply List by 1.1: Multiplies a set list by 1.1 and outputs the resulting list. Two different functions, one uses for and the other uses list compression.
 
 - Name Guessing: Allows you to guess the name set in the code for as long as you want until you guess the name correctly, also provides output messages to tell you when youre wrong nd correct.
