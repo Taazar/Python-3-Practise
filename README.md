@@ -27,6 +27,8 @@ A repository filled with my simple and mostly useless programs that I've made si
 
 - Palindrome Checker: A simple script to check if your input is a palindrome meaning the it looks the same as normal when reversed.
 
+- Password Strength: Function that takes an imput and then detects if it contains uppercase, lowercase and numeric characters and tells you the strenght of your passeord accordingly.
+
 - Rock Paper Scissors: Program that can play rock, paper, scissors. It has two modes: multiplayer and against the computer and it also alows you to change the names of the players and the computer.
 
 - Sentence Info: Takes an input and tells the user the number of charcters with and without spaces, the first and second half of the input, whether it is all uppercase, lowercase or neither and what it looks like in both those cases.
