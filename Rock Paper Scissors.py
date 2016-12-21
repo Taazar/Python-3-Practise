@@ -15,9 +15,8 @@ def game(p1, p2, mode):
             if choices not in ("1", "2", "3"):
                 print("\nYou did not enter either '1', '2' or '3'.")
                 continue
-            else:
-                pc.append(choices)
-                break
+            pc.append(choices)
+            break
     if mode == 1:
         pc.append(choice(("1", "2", "3")))
     beats = {"1": "3", "2": "1", "3": "2"}
@@ -51,23 +50,11 @@ def rock_paper_scissors():
                 if choices not in ("1", "2"):
                     print("\nYou did not enter either '1' or '2'.")
                     continue
-                else:
-                    break
+                break
             if choices == "1":
                 game(p1, p2, 2)
             else:
                 game(p1, p3, 1)
         continue
-##        while True:
-##            choices = input("Do you want to play again? \n1) Yes \n2) No \nPlease enter either '1' or '2': ")
-##            if choices not in ("1", "2"):
-##                print("You did not enter either '1' or '2'.")
-##                continue
-##            else:
-##                break
-##        if choices2 == "1":
-##            continue
-##        else:
-##            quit()
 
 rock_paper_scissors()
