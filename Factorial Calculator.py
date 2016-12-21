@@ -13,7 +13,6 @@ def factorial():
             break
         except:
             print("You must enter a number.")
-            continue
     for a in range(user):
         total *= a+1
     print("The factorial of '{}' is '{}'.".format(user,total))
@@ -36,7 +35,6 @@ def factorial2():
             break
         except:
             print("You must enter a number.")
-            continue
     print("The factorial of '{}' is '{}'.".format(user,factorial2_sub(user)))
     factorial2()
 
