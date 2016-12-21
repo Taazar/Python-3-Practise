@@ -7,7 +7,6 @@ def list_checker():
             break
         except:
             print("That was not a number.")
-            continue
     print("The values less than 5 in the list are {}.".format([d for d in b if d<5]))
     print("The values less than {} in the list are {}.\n".format(c,[d for d in b if d<c]))
     list_checker()
