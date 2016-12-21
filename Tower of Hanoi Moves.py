@@ -6,7 +6,6 @@ def tower():
             break
         except:
             print("That wasn't a number.")
-            continue
     print("It will take a minimum of {} moves to complete this tower.\n".format(2**r-1))
     tower()
 tower()
