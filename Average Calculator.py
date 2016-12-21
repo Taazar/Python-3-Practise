@@ -10,7 +10,6 @@ def average():
             break
         except ValueError:
             print("You need to input a whole number.")
-            continue
     for c in range(a):
         while True:
             temp=input("Please enter figure number {}: ".format(c+1))
@@ -19,7 +18,6 @@ def average():
                 break
             except ValueError:
                 print("You need to input a number.")
-                continue
         d.append(temp)
     d.sort()
     print("Your mean is '{}'.".format((sum(float(c) for c in d))/len(d)))
